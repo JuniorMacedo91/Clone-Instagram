@@ -1,0 +1,173 @@
+/* Configurações gerais do CSS*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+/* Colocando estilo no body*/
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+/* Colocando estilo na principal div*/
+.container{
+    display: flex;
+    align-items: center; /* alinha os itens ao centro e vertical*/
+    justify-content: center;
+    width: 60%;
+    height: 100vh;
+}
+
+/* Estilo da foto do celular*/
+.phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120%;
+}
+
+/* Redimensionando a imagem do celular*/
+.phone img{
+    height: 50rem;
+}
+
+/* Estilo das informações*/
+.continue{
+    display: flex;
+    align-items: center; /* Posição horizontal*/
+    justify-content: space-around; /* Posição vertical*/
+    flex-direction: column;/* Inverte os eixos acima*/
+    width: 50%;
+    min-height: 34rem;
+}
+
+
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 190%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+/* Divide o conteúdo da div group*/
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
+/* Estilo do lodo*/
+.logo{
+    height: 3rem;
+}
+
+/* Estilo da foto de perfil*/
+.profile{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden; /* Mantém a foto dentro do eixo*/
+}
+
+.profile img{
+    height: 9rem;
+}
+
+/* Segunda div group*/
+.group2{
+    display: flex;
+    background-color: white;
+    border: 1px solid lightgray;
+    width: 190%;
+    padding: 1.3rem 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: inherit;
+}
+
+/* Estilo login*/
+.login{
+    background-color: #0095f6;
+    color: white;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+/* Estilo logout*/
+.logout{
+    color: #0095f6;
+    margin-top: 1rem;
+}
+
+.notaccount{
+    color: rgb(160, 160, 160);
+}
+
+.link{
+    color: #0095f6;
+}
+
+/* Estilo da div app*/
+.app{
+    display: flex;
+    flex-direction: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo da div baixar apps*/
+.get-app{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.baixarapp{
+    height: 3rem;
+    width: 10rem;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.baixarapp:nth-child(1){
+    background-image: url("./images/google-play-badge.png");
+}
+
+.baixarapp:nth-child(2){
+    background-image: url('./images/apple-bagde.png');
+}
+
+/* Criando responsividade para tables*/
+@media(max-width: 1024px) {
+    .container{
+        width: 90%;
+    }
+}
+
+/* Criando responsividade para smartphones*/
+@media (max-width: 650px) {
+    .container{
+        width: 90%;
+    }
+
+    .phone{
+        display:none ;
+    }
+    .continue{
+        width: 100%;
+    }
+}
