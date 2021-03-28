@@ -7,7 +7,7 @@ Nesse projeto, foi criado a Landing Page do Instagram. O objetivo não foi clona
 ### Projeto:
 
 <p align="center">
-  <img width="470" height="350" src="Clone-Instagram/instagram-clone.gif">
+  <img width="470" height="350" src="instagram-clone.gif">
 </p>
 
 ***
