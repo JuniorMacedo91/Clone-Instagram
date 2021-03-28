@@ -1,10 +1,10 @@
-# Recriando a página do Instagram 
+# Recreating an Instagram Landing Page
 
-Este é meu primeiro projeto realizado através do bootcamp Web Developer da Digital Innovation One.
+This is my first Bootcamp Project by Digital Innovation One.
 
-Nesse projeto, foi criado a Landing Page do Instagram. O objetivo não foi clonar uma página, mas sim, mostrar todo o conceito, focando em CSS Flexbox e responsividade.
+The challenge was recreating an Instagram Landing Page, focusing on how to learn the concept of Flexbox and responsiveness.
 ***
-### Projeto:
+### Project:
 
 <p align="center">
   <img src="instagram-clone.gif">
@@ -12,9 +12,9 @@ Nesse projeto, foi criado a Landing Page do Instagram. O objetivo não foi clona
 
 ***
 
-### :electron:	 Tecnologias utilizadas:
+### :electron:	 Technologies:
 - HTML
 - CSS
 ***
-### 📑 Licença:
+### 📑 License:
 ![GitHub](https://img.shields.io/github/license/juniormacedo91/clone-instagram)
