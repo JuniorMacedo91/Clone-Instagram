@@ -34,7 +34,8 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 120%;
+    width: 160%;
+
 }
 
 /* Redimensionando a imagem do celular*/
@@ -59,7 +60,7 @@ body{
     align-items: center;
     flex-direction: column;
     background-color: white;
-    width: 190%;
+    width: 120%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
 }
@@ -91,8 +92,8 @@ body{
     display: flex;
     background-color: white;
     border: 1px solid lightgray;
-    width: 190%;
-    padding: 1.3rem 0;
+    width: 120%;
+    padding: 1rem 0;
     justify-content: center;
     align-items: center;
     flex-direction: inherit;
@@ -121,7 +122,7 @@ body{
 }
 
 /* Estilo da div app*/
-.app{
+.get-app{
     display: flex;
     flex-direction: inherit;
     align-items: center;
@@ -129,25 +130,26 @@ body{
 }
 
 /* Estilo da div baixar apps*/
-.get-app{
+.baixarapp{
     display: flex;
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
+    padding: 1rem;
 }
 
-.baixarapp{
+.baixar{
     height: 3rem;
     width: 10rem;
     background-size: cover;
     border-radius: 5px;
 }
 
-.baixarapp:nth-child(1){
-    background-image: url("./images/google-play-badge.png");
+.baixar:nth-child(1){
+    background-image: url("./images/google-play-button.png");
 }
 
-.baixarapp:nth-child(2){
+.baixar:nth-child(2){
     background-image: url('./images/apple-bagde.png');
 }
 
