@@ -1,10 +1,10 @@
-# Recreating an Instagram Landing Page
+# Recriando a tela do Instagram
 
-This is my first Bootcamp Project by Digital Innovation One.
+Este é meu primeiro projeto Bootcamp pela Digital Innovation One.
 
-The challenge was recreating an Instagram Landing Page, focusing on how to learn the concept of Flexbox and responsiveness.
+O desafio foi recriar a tela do Instagram, focando em como aprender os conceitos de Flexbox e responsividade
 ***
-### Project:
+### Projeto:
 
 <p align="center">
   <img src="instagram-clone.gif">
@@ -12,10 +12,10 @@ The challenge was recreating an Instagram Landing Page, focusing on how to learn
 
 ***
 
-### :electron:	 Technologies:
+### :electron:	 Tecnologias:
 [![HTML](https://img.shields.io/badge/HTML-red?style=for-the-badge&logo=HTML5&labelColor=black)](https://github.com/JuniorMacedo91)
 
 [![CSS](https://img.shields.io/badge/CSS3-blue?style=for-the-badge&logo=CSS3&labelColor=black)](https://github.com/JuniorMacedo91)
 ***
-### 📑 License:
+### 📑 Licença:
 ![GitHub](https://img.shields.io/github/license/juniormacedo91/clone-instagram)
